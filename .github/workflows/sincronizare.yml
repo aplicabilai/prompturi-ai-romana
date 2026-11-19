@@ -1,0 +1,29 @@
+name: Sincronizare cu aplicabilai.ro
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generează din exportul public
+        run: node scripts/genereaza.mjs
+      - name: Commit dacă s-a schimbat ceva
+        run: |
+          if git diff --quiet --exit-code -- meserii prompturi.json; then
+            echo "Nimic nou."
+            exit 0
+          fi
+          git add -A meserii prompturi.json README.md
+          git -c user.name="aplicabilai" -c user.email="noreply@aplicabilai.ro" commit -m "Sincronizare prompturi $(date -u +%Y-%m-%d)"
+          git push

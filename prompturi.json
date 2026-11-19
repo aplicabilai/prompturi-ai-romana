@@ -1,0 +1,860 @@
+{
+  "sursa": "https://aplicabilai.ro/prompturi/",
+  "licenta": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.ro), atribuire: aplicabilai.ro",
+  "actualizat": "2026-11-19",
+  "meserii": [
+    {
+      "meserie": "agricultori",
+      "meserie_titlu": "Agricultori",
+      "icon": "🌾",
+      "url": "https://aplicabilai.ro/prompturi/agricultori/",
+      "prompturi": [
+        {
+          "categorie": "Planificare",
+          "titlu": "Calendarul lucrărilor",
+          "prompt": "Fă un calendar al lucrărilor pentru [cultura] pe o suprafață mică, pe luni, cu ce fac și la ce să fiu atent. Fraze scurte.",
+          "cand": "La începutul sezonului.",
+          "verifici": "Datele, după zona ta și după un specialist; AI-ul nu știe vremea de la tine.",
+          "nu_pui": "Date din actele de proprietate sau din cererile de plată.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Anunț pentru produse",
+          "prompt": "Scrie un anunț scurt pentru vânzarea de [produsul] de la fermă, cu ce oferim, cum se poate comanda și unde se ridică. Maximum 60 de cuvinte, ton cald.",
+          "cand": "Când vinzi direct, pe grupuri sau la piață.",
+          "verifici": "Prețul și contactul le pui tu.",
+          "nu_pui": "Adresa de acasă sau CNP-ul.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Documente",
+          "titlu": "Explicația unui document",
+          "prompt": "Explică pe înțeles ce cere acest document public sau această regulă: [lipește textul]. Fă o listă cu pașii de urmat și spune ce nu reiese clar.",
+          "cand": "Când citești un ghid sau o regulă publică.",
+          "verifici": "Pașii, față de sursa oficială (APIA, primărie).",
+          "nu_pui": "Datele tale din cererea de plată sau din acte.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Jurnal de fermă",
+          "prompt": "Fă un model de jurnal de fermă simplu, ca tabel: data, lucrarea, parcela, ce s-a folosit, observații. Cu un exemplu de rând completat inventat.",
+          "cand": "Ca să ții evidența lucrărilor.",
+          "verifici": "Că tabelul cuprinde ce îți cer evidențele oficiale.",
+          "nu_pui": "Date reale despre parcele sau despre subvenții.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Ofertă către un restaurant sau magazin",
+          "prompt": "Scrie un mesaj scurt către un [restaurant / magazin local] prin care le ofer [produsele] de la ferma mea. Spune ce am, în ce perioadă am marfă, cât de des pot livra și că pot trimite mostre. Lasă loc pentru preț: [preț]. Maximum 100 de cuvinte, ton politicos, fără laude exagerate. Dă-mi două variante: una pentru email și una pentru WhatsApp.",
+          "cand": "Când vrei să vinzi constant, nu doar la piață.",
+          "verifici": "Cantitățile și zilele de livrare să fie cele pe care chiar le poți ține; prețul îl pui tu.",
+          "nu_pui": "Numele și datele de contact ale cumpărătorului sau ale tale, contracte cu date reale.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Mesaj când comanda întârzie sau e mai mică",
+          "prompt": "Scrie un mesaj către un cumpărător căruia nu pot livra la timp [produsul]. Motivul: [vremea / recolta mai mică / utilajul stricat]. Propun: [altă zi / o cantitate mai mică / alt produs]. Ton calm și cinstit, fără scuze lungi. Maximum 70 de cuvinte, ca să-l trimit pe WhatsApp.",
+          "cand": "Când vremea sau recolta îți dau planul peste cap și vrei să păstrezi clientul.",
+          "verifici": "Ce promiți în mesaj: noua zi sau cantitatea trebuie să fie sigure.",
+          "nu_pui": "Numele cumpărătorului, sume din contract, date din facturi.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Documente",
+          "titlu": "Lista de acte dintr-un ghid oficial",
+          "prompt": "Mai jos e textul unui ghid oficial pentru [cererea unică APIA / un proiect AFIR / altă cerere]: [lipește textul]. Fă-mi o listă de verificare cu toate documentele cerute, câte un rând fiecare, cu o căsuță de bifat în față. La fiecare scrie de unde se obține, doar dacă reiese din text. La final scrie separat ce nu e clar din ghid și trebuie întrebat la ghișeu.",
+          "cand": "Înainte să pregătești dosarul, ca să nu uiți niciun act.",
+          "verifici": "Lista, față de ghidul oficial de anul acesta; termenele și condițiile le confirmi la APIA, AFIR sau la consultant.",
+          "nu_pui": "Numărul de identificare APIA, CNP, IBAN, acte cu nume sau date din cererea ta.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Descriere pentru produsele de la fermă",
+          "prompt": "Scrie o descriere scurtă pentru [miere / brânză / dulceață / legume] de la ferma mea, pe care s-o pun la postare sau pe un cartonaș la tarabă. Ce știu despre produs: [cum e făcut, de unde, ce gust are]. 3–4 propoziții simple, ton cald, fără cuvinte ca „bio”, „ecologic” sau „vindecă” dacă nu le-am scris eu. Dă-mi trei variante.",
+          "cand": "Când vinzi direct și vrei să spui ce face produsul tău deosebit.",
+          "verifici": "Să nu apară promisiuni de sănătate sau mențiuni pe care nu le ai certificate; ce trebuie scris obligatoriu pe etichetă verifici la sursa oficială (DSVSA, ANSVSA).",
+          "nu_pui": "Adresa de acasă, numărul de înregistrare sanitar-veterinar, date din autorizații.",
+          "adaugat": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "meserie": "avocati",
+      "meserie_titlu": "Avocați",
+      "icon": "⚖️",
+      "url": "https://aplicabilai.ro/prompturi/avocati/",
+      "prompturi": [
+        {
+          "categorie": "Redactare",
+          "titlu": "Structura unei notificări",
+          "prompt": "Propune structura unei notificări către o parte contractuală pentru [întârziere la plată / neîndeplinirea unei obligații], fără date reale. Doar secțiunile, tonul potrivit și elementele pe care trebuie să le verific în contract.",
+          "cand": "Când vrei un schelet pe care îl completezi și îl adaptezi tu.",
+          "verifici": "Temeiul legal și termenele, în sursele oficiale; AI-ul le poate greși.",
+          "nu_pui": "Numele clientului, ale părților, sumele, numerele de dosar sau extrase din contractul real.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare cu clientul",
+          "titlu": "Explicație pentru client",
+          "prompt": "Explică pe înțelesul unui client fără pregătire juridică ce înseamnă [noțiunea juridică], în maximum 8 rânduri, cu un exemplu ipotetic. Fără sfaturi pentru un caz anume.",
+          "cand": "Când clientul îți cere să-i explici în scris o noțiune.",
+          "verifici": "Precizia juridică a fiecărei fraze.",
+          "nu_pui": "Detalii din dosarul clientului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Cercetare",
+          "titlu": "Întrebări pentru prima întâlnire",
+          "prompt": "Pentru o primă consultație într-o speță de [tipul speței], fă o listă de 12 întrebări pe care să le pun clientului, grupate pe teme, și o listă cu documentele pe care să i le cer.",
+          "cand": "Înainte de o consultație, ca să nu scapi nimic.",
+          "verifici": "Că întrebările se potrivesc speței; adaugi tu ce lipsește.",
+          "nu_pui": "Orice informație reală despre client sau despre speță.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Rezumatul unui text public",
+          "prompt": "Rezumă în 6 puncte acest text public (o decizie publicată sau un articol de doctrină): [lipește textul]. Păstrează formulările importante între ghilimele și spune ce nu reiese clar din text.",
+          "cand": "Când citești rapid o sursă publică.",
+          "verifici": "Citatele, față de textul original.",
+          "nu_pui": "Acte din dosarul clientului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare cu clientul",
+          "titlu": "Răspuns către clientul care întreabă de stadiul dosarului",
+          "prompt": "Scrie un email scurt (maximum 10 rânduri) către un client care întreabă ce se întâmplă cu dosarul lui. Situația, anonimizată: [etapa în care se află cauza, de ex. „s-a depus întâmpinarea, urmează primul termen” / „se așteaptă redactarea hotărârii”]. Ce urmează: [următorul pas, fără date exacte]. Ce trebuie să facă clientul: [nimic / să trimită ceva / să fie disponibil]. Ton calm și profesional, concluzia în prima frază, fără promisiuni despre rezultat și fără termene pe care nu le-am indicat eu. Încheie cu cum mă poate contacta pentru întrebări.",
+          "cand": "Când clientul sună sau scrie să afle ce se întâmplă cu dosarul și vrei un răspuns clar, fără promisiuni.",
+          "verifici": "Că etapa procedurală e descrisă corect și că textul nu promite un rezultat sau o dată; termenele le completezi tu, după dosar.",
+          "nu_pui": "Numărul dosarului, instanța, data termenului, numele părților sau orice detaliu din actele cauzei.",
+          "adaugat": "2026-11-15"
+        },
+        {
+          "categorie": "Comunicare cu clientul",
+          "titlu": "Email către client pentru documentele lipsă din dosar",
+          "prompt": "Scrie un email politicos către un client căruia îi cer documente pentru o cauză de tip [tipul cauzei, de ex. „litigiu de muncă” / „partaj”]. Documentele care lipsesc: [lista documentelor, fără date din ele]. Pentru fiecare document, adaugă o explicație de o frază, pe înțelesul unui om fără pregătire juridică, despre de ce e nevoie de el. Spune clar până când îmi trebuie, fără să inventezi o dată: [termenul ales de mine]. Format: o frază de introducere, lista numerotată, o frază despre cum le poate trimite. Maximum 15 rânduri.",
+          "cand": "Când îi ceri clientului actele care lipsesc înainte de un termen sau de redactarea unei cereri.",
+          "verifici": "Că lista e completă pentru procedura respectivă și că explicațiile nu spun nimic greșit juridic; termenul îl stabilești tu.",
+          "nu_pui": "Numele clientului, adresa, CNP-ul, numărul dosarului sau conținutul documentelor pe care le ai deja.",
+          "adaugat": "2026-11-15"
+        },
+        {
+          "categorie": "Comunicare cu clientul",
+          "titlu": "Răspuns la un potențial client care cere o ofertă de onorariu",
+          "prompt": "Scrie un răspuns către o persoană care mă contactează pentru prima dată și întreabă cât costă asistența mea într-o problemă de tipul [tipul problemei, descris general]. Nu pune nicio sumă. Explică pe scurt: de ce onorariul depinde de complexitatea cauzei, ce informații îmi trebuie ca să fac o ofertă ([lista informațiilor generale]), că onorariul și serviciile incluse se stabilesc în contractul de asistență juridică și că propun o primă discuție [la cabinet / online]. Ton profesional și prietenos, maximum 12 rânduri, fără sfaturi juridice pe fondul problemei.",
+          "cand": "Când un client nou întreabă cât costă și vrei să-i explici cum se stabilește onorariul, înainte de prima consultație.",
+          "verifici": "Că textul nu dă un sfat pe fondul problemei și nu promite rezultate; formulările despre contract și onorariu le verifici cu Statutul profesiei și cu practica ta.",
+          "nu_pui": "Datele persoanei care te-a contactat sau detaliile pe care ți le-a scris despre problema ei.",
+          "adaugat": "2026-11-15"
+        },
+        {
+          "categorie": "Redactare",
+          "titlu": "Rezumat scris după o negociere cu partea adversă",
+          "prompt": "Scrie ciorna unui email de confirmare către avocatul părții adverse, după o discuție de negociere într-o speță de tipul [tipul speței]. Punctele convenite: [lista, formulată general, fără sume]. Punctele rămase deschise: [lista]. Pașii următori și cine îi face: [lista]. Structură: o frază de introducere, „Am convenit”, „Rămân de discutat”, „Pașii următori”, o frază de încheiere care precizează că rezumatul nu înlocuiește acordul scris final. Ton controlat și neutru, fără formulări care pot fi citite ca recunoaștere a unei pretenții. Maximum 20 de rânduri.",
+          "cand": "Când vrei să confirmi în scris, după o discuție de negociere, ce s-a convenit și ce rămâne deschis.",
+          "verifici": "Fiecare formulare care ar putea angaja clientul și că nu apare nimic ce n-a fost convenit; sumele și termenele le completezi tu, după notițe.",
+          "nu_pui": "Numele părților, sumele negociate, termenele reale, strategia clientului sau limitele lui de negociere.",
+          "adaugat": "2026-11-15"
+        },
+        {
+          "categorie": "Cercetare",
+          "titlu": "Listă de clauze de verificat într-un contract de prestări servicii",
+          "prompt": "Fă o listă de verificare pentru revizuirea unui contract de prestări servicii de tipul [domeniul, de ex. „servicii IT” / „mentenanță”], din perspectiva [prestatorului / beneficiarului]. Grupează pe teme (obiect și livrabile, preț și plată, termene, răspundere și penalități, încetare, confidențialitate, proprietate intelectuală, litigii) și, pentru fiecare temă, 2–4 întrebări concrete pe care să mi le pun citind contractul. La final, 5 clauze care lipsesc des din astfel de contracte. Fără trimiteri la articole de lege.",
+          "cand": "Când revizuiești un contract primit de la cealaltă parte și vrei să nu scapi nicio clauză importantă.",
+          "verifici": "Că lista se potrivește contractului și dreptului aplicabil; orice regulă legală o verifici în legislația în vigoare, nu o iei din răspuns.",
+          "nu_pui": "Textul contractului real, numele părților, valoarea contractului sau clauzele negociate.",
+          "adaugat": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "meserie": "constructii-meseriasi",
+      "meserie_titlu": "Construcții și meseriași",
+      "icon": "🛠️",
+      "url": "https://aplicabilai.ro/prompturi/constructii-meseriasi/",
+      "prompturi": [
+        {
+          "categorie": "Clienți",
+          "titlu": "Mesaj despre lucrare",
+          "prompt": "Scrie un mesaj scurt și politicos pentru un client, că lucrarea de [lucrarea] întârzie [cât] din cauza [motivul]. Spune ce facem și când revenim. Maximum 5 rânduri.",
+          "cand": "Când trebuie să-l anunți pe client de o întârziere.",
+          "verifici": "Datele și motivul real.",
+          "nu_pui": "Adresa clientului sau numele lui.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Oferte",
+          "titlu": "Ofertă pe puncte",
+          "prompt": "Fă structura unei oferte pentru [lucrarea], pe puncte: ce se face, din ce materiale, în câte zile, ce nu e inclus. Lasă loc pentru prețuri, nu pune cifre.",
+          "cand": "Când pregătești o ofertă pentru un client.",
+          "verifici": "Prețurile și cantitățile le pui tu.",
+          "nu_pui": "Datele clientului și adresa lucrării.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Listă de materiale",
+          "prompt": "Fă o listă de materiale și scule pentru [lucrarea, de exemplu: montaj gresie 20 mp], cu cantități orientative și ce verific înainte să cumpăr.",
+          "cand": "Înainte să mergi la depozit.",
+          "verifici": "Cantitățile, cu măsurătorile tale reale.",
+          "nu_pui": "Nimic personal: doar lucrarea.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Siguranță",
+          "titlu": "Reguli de siguranță pe scurt",
+          "prompt": "Scrie 6 reguli scurte de siguranță pentru [lucrarea], pe înțelesul unui ucenic, câte o frază fiecare.",
+          "cand": "Înainte de o lucrare cu risc.",
+          "verifici": "Că regulile respectă normele de securitate în vigoare.",
+          "nu_pui": "Nume de colegi.",
+          "adaugat": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "meserie": "contabili",
+      "meserie_titlu": "Contabili",
+      "icon": "📊",
+      "url": "https://aplicabilai.ro/prompturi/contabili/",
+      "prompturi": [
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Email pentru documentele lipsă",
+          "prompt": "Ești asistentul unui birou de contabilitate. Scrie un email scurt și politicos către un client care nu a trimis documentele pentru luna trecută (facturi, extrase, bonuri). Ton prietenos, dar ferm. Maximum 6 rânduri, cu o listă scurtă a documentelor așteptate.",
+          "cand": "În fiecare lună, pentru clienții care întârzie cu actele.",
+          "verifici": "Termenul intern și lista exactă de documente, înainte de trimitere.",
+          "nu_pui": "Numele clientului, CUI-ul, sume sau date din contabilitatea lui; le adaugi tu în email.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Explicație pentru un antreprenor",
+          "prompt": "Explică pe înțelesul unui antreprenor fără pregătire economică ce înseamnă [noțiunea contabilă sau fiscală], în maximum 8 rânduri, cu un exemplu cu cifre inventate și rotunde.",
+          "cand": "Când un client te întreabă același lucru pentru a cincea oară.",
+          "verifici": "Regulile fiscale, în sursa oficială; AI-ul poate avea informații vechi.",
+          "nu_pui": "Cifre reale ale clientului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Listă de închidere de lună",
+          "prompt": "Fă o listă de verificare pentru închiderea lunii la o firmă mică de servicii: pașii în ordine, ce document ai nevoie la fiecare și ce verifici. Format de tabel cu trei coloane.",
+          "cand": "Ca să ai un șablon de lucru pe care îl adaptezi biroului.",
+          "verifici": "Pașii, față de procedura ta și de legislația în vigoare.",
+          "nu_pui": "Date ale clienților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Excel",
+          "titlu": "Formulă explicată",
+          "prompt": "Am un tabel Excel cu coloanele [descrie coloanele, fără date reale]. Vreau o formulă care [ce vrei să calculezi]. Dă-mi formula și explică-mi pe rând ce face fiecare parte.",
+          "cand": "Când nu-ți amintești o formulă sau vrei să automatizezi un calcul.",
+          "verifici": "Rezultatul formulei pe câteva rânduri verificate manual.",
+          "nu_pui": "Fișierul real cu datele clienților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Oferte și onorarii",
+          "titlu": "Ofertă de servicii de contabilitate pentru un client nou",
+          "prompt": "Ești asistentul unui cabinet de contabilitate. Scrie o ofertă de servicii pentru o firmă nouă cu acest profil: [formă juridică, ex. SRL], [plătitor sau neplătitor de TVA], [domeniu de activitate], aproximativ [număr] documente pe lună, [număr] angajați. Structura: 1) o propoziție de introducere; 2) serviciile incluse, pe puncte (evidența contabilă, declarațiile lunare și anuale, salarizare dacă e cazul, situațiile financiare anuale); 3) ce NU e inclus și se taxează separat; 4) ce documente aștept de la client și până când, lunar; 5) onorariul: lasă [onorariu lunar] ca paranteză, fără să propui tu o sumă; 6) pașii de început. Ton profesionist, fără promisiuni. Maximum o pagină.",
+          "cand": "Când un antreprenor îți cere „cât costă contabilitatea” și vrei să trimiți o ofertă clară, pe puncte, în aceeași zi.",
+          "verifici": "Lista de declarații față de situația firmei (TVA, salariați, regim de impozitare) și față de sursa oficială; onorariul și condițiile le pui tu, din grila cabinetului.",
+          "nu_pui": "Denumirea și CUI-ul firmei, numele asociaților, cifra de afaceri reală; descrii doar profilul general.",
+          "adaugat": "2026-11-14"
+        },
+        {
+          "categorie": "Oferte și onorarii",
+          "titlu": "Răspuns la un client care cere reducere de onorariu",
+          "prompt": "Sunt contabil și un client vechi îmi cere să reduc onorariul lunar. Situația: [de câți ani lucrăm împreună], [ce s-a schimbat în volumul de muncă, ex. mai multe documente, angajați noi, e-Factura], [ce pot oferi: păstrez prețul / o mică reducere cu condiții / un pachet cu mai puține servicii]. Scrie un email politicos și ferm, de maximum 10 rânduri: mulțumesc pentru colaborare, explic pe scurt ce include onorariul acum, propun varianta mea și închei cu o întrebare clară. Fără scuze exagerate și fără să critic alte cabinete. Dă-mi apoi și o variantă mai scurtă, pentru WhatsApp.",
+          "cand": "Când un client cere un preț mai mic și vrei să răspunzi calm, fără să pierzi clientul și fără să lucrezi în pierdere.",
+          "verifici": "Că varianta propusă e cea pe care chiar o poți susține și că emailul nu promite servicii în plus față de contract.",
+          "nu_pui": "Numele clientului, onorariul actual, sumele din contractul lui sau cifrele firmei; le completezi tu în emailul final.",
+          "adaugat": "2026-11-14"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Listă de documente pentru preluarea unui client nou",
+          "prompt": "Preiau contabilitatea unei firme de la alt contabil. Profilul firmei: [formă juridică], [plătitor sau neplătitor de TVA], [cu sau fără salariați], [domeniu]. Fă-mi o listă de verificare cu tot ce trebuie să primesc la predare-primire, grupată pe: acte ale firmei, evidență contabilă (balanțe, registre, jurnale), declarații depuse, salarizare, bancă și casă, acces și împuterniciri. Tabel cu trei coloane: document, de la cine îl cer (fostul contabil / client), observații. La final, 5 întrebări pe care să le pun clientului la prima discuție.",
+          "cand": "La preluarea unui client de la alt cabinet, ca să nu descoperi lipsurile abia la prima declarație.",
+          "verifici": "Lista față de procedura cabinetului tău și de cerințele în vigoare (verifici în sursa oficială ce registre și formulare se aplică firmei).",
+          "nu_pui": "Denumirea și CUI-ul firmei, numele fostului contabil, parole SPV sau date de acces.",
+          "adaugat": "2026-11-14"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Controale pe balanța de verificare înainte de declarații",
+          "prompt": "Fă-mi o listă de controale pe care le fac lunar pe balanța de verificare, înainte de a depune declarațiile, pentru o firmă [tipul firmei, ex. SRL de comerț, plătitor de TVA, cu salariați]. Pentru fiecare control: ce verific, ce conturi sau grupe de conturi privesc, ce înseamnă un sold anormal (ex. casă cu sold creditor, furnizori cu sold debitor) și ce fac dacă îl găsesc. Format: listă numerotată, maximum 15 puncte, fără explicații de bază. Nu inventa cote sau termene.",
+          "cand": "Ca șablon de verificare lunară, pe care îl adaptezi la planul de conturi și la clienții cabinetului.",
+          "verifici": "Fiecare control față de planul de conturi și reglementările în vigoare; AI-ul poate greși simbolurile conturilor.",
+          "nu_pui": "Balanța reală a clientului, nici exportată, nici copiată; ceri doar lista de controale.",
+          "adaugat": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "meserie": "hr-salarizare",
+      "meserie_titlu": "HR și salarizare",
+      "icon": "🤝",
+      "url": "https://aplicabilai.ro/prompturi/hr-salarizare/",
+      "prompturi": [
+        {
+          "categorie": "Recrutare",
+          "titlu": "Anunț de angajare",
+          "prompt": "Scrie un anunț de angajare pentru postul de [post], la o firmă de [domeniu] din [oraș]. Include responsabilitățile, cerințele, ce oferim și pașii de aplicare. Limbaj neutru, fără cerințe discriminatorii, maximum 200 de cuvinte.",
+          "cand": "Când deschizi un post nou.",
+          "verifici": "Că cerințele sunt reale și nediscriminatorii.",
+          "nu_pui": "Nume de angajați sau salarii individuale.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Recrutare",
+          "titlu": "Întrebări de interviu",
+          "prompt": "Fă 10 întrebări de interviu pentru postul de [post], 5 despre experiență și 5 despre situații concrete de lucru. Pentru fiecare, ce urmăresc să aflu.",
+          "cand": "Înainte de interviuri, ca structura să fie la fel pentru toți candidații.",
+          "verifici": "Că întrebările nu ating viața personală a candidatului.",
+          "nu_pui": "CV-urile candidaților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare internă",
+          "titlu": "Anunț intern",
+          "prompt": "Scrie un anunț intern scurt despre [schimbarea: program, procedură, beneficiu]. Ton clar și prietenos, maximum 8 rânduri, cu ce se schimbă, de când și pe cine întreabă angajații.",
+          "cand": "Când trebuie comunicată o schimbare tuturor.",
+          "verifici": "Datele și regulile, înainte de trimitere.",
+          "nu_pui": "Date despre angajați anume.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Plan de integrare",
+          "prompt": "Fă un plan de integrare pentru primele două săptămâni ale unui angajat nou pe postul de [post]: pe zile, cu cine se întâlnește, ce învață și ce verifică managerul la final.",
+          "cand": "Înainte de prima zi a unui coleg nou.",
+          "verifici": "Că planul se potrivește echipei tale.",
+          "nu_pui": "Datele personale ale angajatului nou.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Recrutare",
+          "titlu": "Email de invitație la interviu pentru un candidat",
+          "prompt": "Scrie un email de invitație la interviu pentru un candidat la postul de [post], la firma noastră din domeniul [domeniu]. Detalii: data [data], ora [ora], formatul [la sediu / online], locul sau modul de conectare [completezi tu, fără link aici], durata aproximativă [durata], cu cine discută [funcția intervievatorului, fără nume], ce aduce sau ce pregătește [acte de identitate, portofoliu, nimic]. Ton cald și profesionist, adresare cu „dumneavoastră”, maximum 150 de cuvinte. La final, roagă-l să confirme prezența și spune-i ce face dacă nu poate ajunge. Dă-mi și un subiect de email scurt și o variantă de 2–3 rânduri pentru SMS sau WhatsApp.",
+          "cand": "Când ai trecut un candidat de selecția pe CV și îl chemi la interviu.",
+          "verifici": "Data, ora, adresa sau linkul și numele intervievatorului, pe care le pui tu în email; că nu cere acte sau informații de care nu ai nevoie la interviu.",
+          "nu_pui": "Numele, telefonul, emailul sau CV-ul candidatului; numele colegilor din comisia de interviu.",
+          "adaugat": "2026-11-16"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Fișa postului pe secțiuni: atribuții, responsabilități, cerințe",
+          "prompt": "Ești specialist HR. Scrie un prim draft de fișă a postului pentru postul de [denumirea postului, cu codul COR dacă îl ai], în departamentul [departament], subordonat [funcția șefului direct]. Ce mi-a spus managerul despre post: [lipești notițele managerului, fără nume]. Structura: 1) identificarea postului (denumire, departament, relații de subordonare și colaborare), 2) scopul postului într-o propoziție, 3) atribuții și sarcini, grupate pe 3–5 domenii, cu verbe la indicativ („întocmește”, „verifică”), 4) responsabilități și limite de autoritate, 5) cerințe: studii, experiență, cunoștințe, competențe, 6) condiții de lucru (program, deplasări). Limbaj neutru, fără cerințe de vârstă, sex sau stare civilă. Unde informația lipsește, pune [de completat], nu inventa.",
+          "cand": "Când managerul îți dă în câteva rânduri ce face omul și tu trebuie să scrii fișa postului.",
+          "verifici": "Că fiecare atribuție corespunde muncii reale (o citește managerul) și că atribuțiile se potrivesc cu postul din contract și cu codul COR; forma finală o verifici cu procedura internă a firmei.",
+          "nu_pui": "Numele ocupantului postului, salariul, datele din contractul individual de muncă sau din REVISAL.",
+          "adaugat": "2026-11-16"
+        },
+        {
+          "categorie": "Comunicare internă",
+          "titlu": "Mesaj către angajați despre o modificare legislativă, din textul oficial",
+          "prompt": "Mai jos e textul oficial al unei modificări legislative care îi privește pe angajați: [lipești fragmentul din Monitorul Oficial sau de pe site-ul instituției]. Scrie un mesaj intern pentru angajații firmei, pe înțelesul unui om care nu lucrează în HR: 1) ce se schimbă, în 2–3 propoziții, 2) de când se aplică, exact cum scrie în text, 3) ce trebuie să facă angajatul (sau „nu trebuie să faceți nimic”), 4) pe cine întreabă. Maximum 150 de cuvinte, ton calm. Folosește doar ce scrie în textul lipit: dacă o informație nu e acolo, scrie [de verificat], nu o completa din alte surse. La final, listează separat frazele din mesaj pe care trebuie să le verific în textul oficial.",
+          "cand": "Când se schimbă o lege care îi atinge pe angajați (concedii, contribuții, program) și oamenii vor întreba ce înseamnă pentru ei.",
+          "verifici": "Fiecare dată, procent și condiție, direct în textul oficial (Monitorul Oficial sau site-ul instituției); dacă e o schimbare la salariu sau la contribuții, verifici și cu contabilul sau cu programul de salarizare.",
+          "nu_pui": "Exemple de calcul cu salariile unor angajați anume, nume, CNP-uri, situații individuale (concedii medicale, popriri).",
+          "adaugat": "2026-11-16"
+        },
+        {
+          "categorie": "Regulamente și proceduri",
+          "titlu": "Procedură de lucru de acasă (telemuncă), prim draft",
+          "prompt": "Scrie un prim draft de procedură internă pentru lucrul de acasă la o firmă de [domeniu], cu aproximativ [număr] angajați, din care pot lucra de acasă [ce posturi sau departamente]. Regulile pe care le-am stabilit deja: [câte zile pe săptămână, cum se cere, cine aprobă, programul în care trebuie să fie disponibili, echipamentul, cum se pontează]. Structura: scop, cui se aplică, cum se solicită și se aprobă, program și disponibilitate, echipament și securitatea datelor, pontaj și evidența timpului, încetarea sau suspendarea lucrului de acasă. Liste numerotate, limbaj clar. Nu adăuga obligații legale sau termene din memorie: unde e nevoie de o prevedere legală, pune [de verificat în legislația telemuncii și în contractele individuale].",
+          "cand": "Când firma vrea reguli scrise pentru lucrul de acasă și ai nevoie de o structură de la care să pornești.",
+          "verifici": "Totul cu juristul și cu legislația în vigoare privind telemunca, verificată în sursa oficială; că procedura se potrivește cu clauzele din contractele individuale și cu regulamentul intern.",
+          "nu_pui": "Numele angajaților care lucrează de acasă, adresele lor, cererile individuale sau motivele personale ale cererilor.",
+          "adaugat": "2026-11-16"
+        },
+        {
+          "categorie": "Salarizare și pontaj",
+          "titlu": "Formulă Excel pentru ore lucrate și ore suplimentare în pontaj",
+          "prompt": "Am un tabel de pontaj în Excel, cu date fictive: coloana A = data, B = ora de intrare, C = ora de ieșire, D = pauza în minute, toate pe rânduri de la 2 la [ultimul rând]. Norma zilnică este de [număr] ore. Vreau: 1) în coloana E, formula pentru orele lucrate efectiv în zi (ieșire minus intrare minus pauză), care merge și când tura trece de miezul nopții; 2) în coloana F, orele peste normă, sau 0 dacă nu sunt; 3) la final, totalul de ore lucrate și de ore peste normă pe lună. Folosesc Excel în [română / engleză], deci dă-mi numele funcțiilor în limba asta și separatorul potrivit. Pentru fiecare formulă, explică în o propoziție ce face și cum formatez celula ca să afișeze ore.",
+          "cand": "Când îți construiești sau îți repari foaia de pontaj și nu știi formula pentru ore.",
+          "verifici": "Formulele pe 3–4 rânduri de test calculate de mână (inclusiv o tură peste miezul nopții și o zi fără ore suplimentare); regulile de ore suplimentare și de muncă de noapte le verifici în Codul muncii și în contractul colectiv sau regulamentul intern, nu în răspunsul AI-ului.",
+          "nu_pui": "Pontajul real cu numele angajaților, marca sau CNP-ul; lucrezi pe date fictive și copiezi formula în fișierul tău.",
+          "adaugat": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "meserie": "imobiliare",
+      "meserie_titlu": "Imobiliare",
+      "icon": "🏠",
+      "url": "https://aplicabilai.ro/prompturi/imobiliare/",
+      "prompturi": [
+        {
+          "categorie": "Anunțuri",
+          "titlu": "Descrierea unei proprietăți",
+          "prompt": "Scrie descrierea unui anunț pentru [tipul proprietății], [număr] camere, [suprafață] mp, în zona [zona], cu [3–4 avantaje reale]. Ton clar, fără superlative goale, maximum 120 de cuvinte, plus un titlu de maximum 60 de caractere.",
+          "cand": "La fiecare anunț nou.",
+          "verifici": "Fiecare detaliu, față de proprietatea reală; nimic exagerat.",
+          "nu_pui": "Adresa exactă, numele proprietarului sau datele din acte.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Răspuns la o cerere",
+          "prompt": "Scrie un răspuns scurt și politicos pentru un cumpărător interesat de un apartament, care cere detalii și o vizionare. Propune două intervale orare și spune ce documente să aibă la vizionare.",
+          "cand": "Când primești multe cereri similare.",
+          "verifici": "Intervalele și informațiile despre proprietate.",
+          "nu_pui": "Datele cumpărătorului sau ale proprietarului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Listă pentru vizionare",
+          "prompt": "Fă o listă de verificare pentru o vizionare de apartament: ce pregătești înainte, ce arăți, ce întrebări pui cumpărătorului și ce notezi după.",
+          "cand": "Ca să ai același standard la fiecare vizionare.",
+          "verifici": "Că lista se potrivește proprietății.",
+          "nu_pui": "Date ale clienților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Promovare",
+          "titlu": "Postare pentru rețele",
+          "prompt": "Scrie o postare scurtă pentru Facebook despre [proprietatea sau un sfat pentru cumpărători], maximum 80 de cuvinte, cu o întrebare la final care să încurajeze comentariile.",
+          "cand": "Când vrei conținut pentru pagina agenției.",
+          "verifici": "Că informațiile sunt corecte și actuale.",
+          "nu_pui": "Adrese exacte sau date ale proprietarilor.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Anunțuri",
+          "titlu": "Anunț de închiriere cu condițiile chiriei",
+          "prompt": "Scrie un anunț de închiriere pentru [tipul locuinței], [număr] camere, [suprafață utilă] mp, în zona [zona], [mobilat / nemobilat]. Condițiile, exact cum le dau eu: chiria [chiria cerută], garanția [garanția], utilitățile [ce plătește chiriașul], disponibil din [luna], [animale acceptate sau nu], durata minimă [durata]. Avantaje reale văzute la vizionare: [3–4 avantaje]. Structura: un titlu de maximum 60 de caractere, un paragraf de descriere de maximum 80 de cuvinte, apoi condițiile pe puncte, fiecare pe un rând. Nu adăuga dotări, distanțe sau avantaje pe care nu ți le-am dat; dacă îți lipsește o informație importantă pentru un chiriaș, scrie-o la final ca întrebare pentru mine.",
+          "cand": "Când pui o locuință în chirie și vrei ca anunțul să spună clar de la început chiria, garanția și condițiile, ca să primești mai puține întrebări repetate.",
+          "verifici": "Chiria, garanția și condițiile, cuvânt cu cuvânt față de ce a stabilit proprietarul; că nu apare nicio dotare sau distanță pe care n-ai văzut-o; întrebările de la final, ca să completezi anunțul.",
+          "nu_pui": "Numele și telefonul proprietarului, adresa exactă (strada, numărul, apartamentul), datele din contractul de închiriere anterior sau motivul pentru care pleacă fostul chiriaș.",
+          "adaugat": "2026-11-17"
+        },
+        {
+          "categorie": "Anunțuri",
+          "titlu": "Verificarea anunțului înainte de publicare: ce informații lipsesc",
+          "prompt": "Ești un cumpărător atent care citește anunțul de mai jos pe un portal imobiliar. Citește-l și spune-mi: 1) ce informații lipsesc și pe care le-ai întreba la telefon (de exemplu etaj, an construcție, încălzire, parcare, compartimentare, costuri lunare); 2) ce formulări sună exagerat sau vag și cum le-ai reformula concret; 3) ce afirmații ar trebui dovedite la vizionare. Răspunde pe trei liste scurte, maximum 5 puncte fiecare. Nu rescrie anunțul și nu inventa informațiile care lipsesc.\n\nAnunțul: [lipește textul anunțului, fără adresa exactă și fără date ale proprietarului]",
+          "cand": "Înainte să publici un anunț pe portal sau pe rețele, ca să afli din timp ce te vor întreba clienții și să completezi textul.",
+          "verifici": "Că fiecare informație pe care o adaugi după listă e verificată la proprietate sau în acte, nu preluată din sugestiile AI-ului; formulările reformulate, ca să rămână adevărate.",
+          "nu_pui": "Adresa exactă, numele proprietarului, numărul de carte funciară sau date din extrasul CF și din acte.",
+          "adaugat": "2026-11-17"
+        },
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Raport săptămânal pentru proprietar despre vizionări",
+          "prompt": "Scrie un raport scurt pentru proprietarul unui [tipul proprietății] din zona [zona], despre săptămâna [perioada]. Datele mele: [număr] vizionări, [număr] cereri noi de informații, impresiile clienților fără nume: [ce au spus, pe scurt, ce le-a plăcut și ce nu], oferte primite: [nicio ofertă / ofertele, fără numele cumpărătorilor], recomandarea mea pentru săptămâna viitoare: [recomandarea și argumentele mele]. Structura: un rând de salut, cifrele săptămânii pe puncte, ce au spus clienții în 2–3 propoziții, recomandarea mea și o întrebare clară pentru proprietar. Ton profesionist și sincer, maximum 180 de cuvinte, potrivit pentru email sau WhatsApp. Nu adăuga cifre, păreri sau argumente pe care nu ți le-am dat.",
+          "cand": "La finalul săptămânii, când proprietarul vrea să știe ce s-a întâmplat cu proprietatea lui și tu vrei să-i arăți munca făcută fără să scrii totul de la zero.",
+          "verifici": "Cifrele (vizionări, cereri, oferte) față de agenda ta; că recomandarea e a ta și sună cum ai spune-o tu; că nu apare niciun nume sau detaliu care identifică un cumpărător.",
+          "nu_pui": "Numele, telefonul sau situația financiară a cumpărătorilor, creditul lor, numele proprietarului sau adresa exactă a proprietății.",
+          "adaugat": "2026-11-17"
+        },
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Mesaj către proprietar pentru ajustarea prețului cerut",
+          "prompt": "Ajută-mă să scriu un mesaj către proprietarul unui [tipul proprietății] din zona [zona], listat de [de cât timp]. Situația: [câte vizionări și cereri au fost], ce au spus clienții despre preț: [obiecțiile, fără nume], proprietăți comparabile pe care le-am văzut eu: [2–3 comparabile, cu suprafața și prețul din anunț]. Vreau să-i propun [o ajustare de preț / o discuție despre preț] cu argumentele de mai sus. Ton respectuos și calm, fără presiune, care arată că înțeleg că e proprietatea lui și decizia îi aparține. Structura: ce s-a întâmplat până acum, ce arată piața, propunerea mea, o întrebare pentru o discuție la telefon. Maximum 170 de cuvinte. Nu inventa comparabile, cifre sau tendințe ale pieței.",
+          "cand": "Când proprietatea are puține vizionări sau oferte sub preț și trebuie să deschizi cu proprietarul discuția despre preț, fără să-l superi.",
+          "verifici": "Că fiecare comparabil și fiecare cifră vin de la tine și sunt corecte; că mesajul nu promite o vânzare rapidă la noul preț; tonul, ca să nu sune ca o presiune.",
+          "nu_pui": "Numele proprietarului, motivul vânzării (divorț, succesiune, datorii), creditul sau situația lui financiară, adresa exactă.",
+          "adaugat": "2026-11-17"
+        },
+        {
+          "categorie": "Comunicare cu clienții",
+          "titlu": "Răspuns către cumpărător la o ofertă mult sub prețul cerut",
+          "prompt": "Scrie un răspuns către un cumpărător care a oferit [oferta] pentru un [tipul proprietății] cerut la [prețul cerut]. Am vorbit cu proprietarul și răspunsul lui este: [refuză / contraofertă de ... / acceptă o discuție de la ...]. Argumente reale pentru preț pe care le pot folosi: [2–3 argumente, de exemplu starea, dotările, comparabile]. Ton politicos și ferm, care păstrează discuția deschisă și nu îl jignește pe cumpărător. Structura: mulțumire pentru ofertă, răspunsul proprietarului, argumentele pe scurt, pasul următor propus. Maximum 120 de cuvinte, potrivit pentru WhatsApp sau email. Nu promite nimic în numele proprietarului în afară de ce ți-am scris.",
+          "cand": "După ce un cumpărător face o ofertă mică și ai discutat cu proprietarul ce răspuns îi dai.",
+          "verifici": "Sumele și răspunsul proprietarului, exact cum le-a spus; că nu apare nicio promisiune sau concesie pe care proprietarul nu a făcut-o; că mesajul nu dezvăluie cât ar accepta minim proprietarul.",
+          "nu_pui": "Numele cumpărătorului sau al proprietarului, prețul minim acceptat de proprietar, motivul vânzării, situația financiară sau creditul cumpărătorului.",
+          "adaugat": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "meserie": "medici",
+      "meserie_titlu": "Medici",
+      "icon": "🩺",
+      "url": "https://aplicabilai.ro/prompturi/medici/",
+      "prompturi": [
+        {
+          "categorie": "Comunicare cu pacienții",
+          "titlu": "Explicație pe înțelesul pacientului",
+          "prompt": "Explică pe înțelesul unui pacient fără pregătire medicală ce înseamnă [diagnosticul sau investigația]. Folosește fraze scurte, fără termeni medicali neexplicați, maximum 8 rânduri. Încheie cu trei întrebări pe care pacientul le poate pune medicului.",
+          "cand": "Când pregătești un material scris pentru pacienți sau un afiș din sala de așteptare.",
+          "verifici": "Corectitudinea medicală a fiecărei fraze; textul final îl validezi tu, nu AI-ul.",
+          "nu_pui": "Numele pacientului, CNP-ul, istoricul medical sau orice detaliu care l-ar putea identifica.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Administrativ",
+          "titlu": "Structura unei scrisori medicale",
+          "prompt": "Propune structura unei scrisori medicale către un coleg de altă specialitate, pentru o trimitere de rutină. Doar secțiunile și ce conține fiecare, fără date de pacient. Adaugă la final o listă de verificare de 5 puncte înainte de trimitere.",
+          "cand": "Când vrei un șablon pe care îl completezi apoi tu, în sistemul cabinetului.",
+          "verifici": "Că secțiunile corespund cerințelor din unitatea ta.",
+          "nu_pui": "Orice dată clinică reală: o completezi tu în șablon, în afara AI-ului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Mesaj pentru programări",
+          "prompt": "Scrie un mesaj scurt și politicos pentru pacienții cabinetului, care anunță că [programul se schimbă / cabinetul e închis în perioada X]. Ton cald, maximum 5 rânduri, cu ce trebuie să facă pacientul.",
+          "cand": "Când trebuie anunțate schimbări de program pe site, la ușă sau prin SMS.",
+          "verifici": "Datele și orele, înainte de publicare.",
+          "nu_pui": "Nume de pacienți sau de colegi.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Formare",
+          "titlu": "Rezumat de ghid clinic",
+          "prompt": "Îți dau un fragment dintr-un ghid clinic public: [lipește textul]. Fă un rezumat în 7 puncte, păstrând recomandările exact cum sunt formulate. Marchează orice punct unde nu ești sigur.",
+          "cand": "Când vrei o recapitulare rapidă a unui document public.",
+          "verifici": "Fiecare punct, față de ghidul original. AI-ul poate omite sau deforma nuanțe.",
+          "nu_pui": "Cazuri reale de pacienți; doar textul public al ghidului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare cu pacienții",
+          "titlu": "Răspuns pentru pacientul care vine cu „diagnosticul de la ChatGPT”",
+          "prompt": "Sunt medic [specialitatea]. Un pacient vine la consultație cu o explicație primită de la un chatbot despre [tema generală, de ex. o durere de cap recurentă], diferită de evaluarea mea. Scrie-mi 3 variante de formulare, de câte 3–4 propoziții, prin care: recunosc că s-a informat, explic de ce un chatbot nu poate face un examen clinic și nu îi cunoaște istoricul, și îl invit să-mi spună ce l-a îngrijorat. Ton calm, fără reproș, fără termeni medicali neexplicați.",
+          "cand": "Când vrei să ai pregătite câteva formulări pentru discuțiile cu pacienții care aduc informații de pe internet sau din AI.",
+          "verifici": "Că nicio variantă nu sună ironic sau defensiv și că nu conține afirmații medicale; partea clinică o spui tu.",
+          "nu_pui": "Simptomele, diagnosticul sau orice detaliu al pacientului concret; doar tema, la nivel general.",
+          "adaugat": "2026-11-13"
+        },
+        {
+          "categorie": "Comunicare cu pacienții",
+          "titlu": "Pregătirea pentru o investigație, pe pași",
+          "prompt": "Îți dau instrucțiunile pe care le folosesc în cabinet pentru pregătirea pacientului înainte de [investigația]: [lipește textul tău]. Rescrie-le ca listă numerotată de pași, în ordine cronologică (cu o zi înainte, în dimineața investigației, ce aduce cu el), fraze scurte, pe înțelesul oricui, maximum o pagină. Nu adăuga nicio recomandare care nu e în textul meu; dacă ceva e neclar, scrie la final întrebările pe care le-ai pune.",
+          "cand": "Când vrei o fișă clară de dat pacientului sau de pus pe site, pornind de la instrucțiunile pe care le dai deja.",
+          "verifici": "Că fiecare pas există în textul tău original și că nu s-au schimbat intervale, cantități sau medicamente; le confirmi în protocolul unității.",
+          "nu_pui": "Date de pacient sau programări reale; doar instrucțiunile generale ale cabinetului.",
+          "adaugat": "2026-11-13"
+        },
+        {
+          "categorie": "Administrativ",
+          "titlu": "Adresă către conducere sau CAS",
+          "prompt": "Scrie o adresă oficială către [conducerea spitalului / casa de asigurări / direcția de sănătate publică] prin care [solicit / semnalez / cer clarificări despre] [subiectul, pe scurt]. Contextul: [2–3 fraze, fără date de pacient]. Structură: formulă de adresare, motivul în primul paragraf, detaliile pe puncte, ce soliciti concret, încheiere. Ton formal, maximum 15 rânduri. Lasă [paranteze] pentru număr de înregistrare, dată și semnătură.",
+          "cand": "Când trebuie să trimiți o solicitare sau o sesizare administrativă și vrei o primă variantă clară.",
+          "verifici": "Denumirea exactă a instituției, actele normative pomenite (le verifici în sursa oficială) și că cererea e formulată cum vrei tu.",
+          "nu_pui": "Nume, CNP sau date clinice ale pacienților; dacă adresa privește un caz, îl descrii generic și completezi detaliile în afara AI-ului.",
+          "adaugat": "2026-11-13"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Afiș cu actele necesare la cabinet",
+          "prompt": "Fă un afiș pentru sala de așteptare a cabinetului [de familie / de specialitate] cu actele pe care pacientul le aduce pentru [înscriere / consultație cu bilet de trimitere / eliberarea unui document]. Lista mea: [lipește actele]. Grupează-le pe situații, cu titluri scurte, maximum 12 rânduri, litere mari, fără prescurtări. La final, o propoziție despre cum se fac programările: [telefon sau program, completezi tu].",
+          "cand": "Când pacienții vin des fără documentele necesare și vrei un afiș sau un mesaj pe site.",
+          "verifici": "Lista actelor, față de cerințele în vigoare ale casei de asigurări și ale unității (sursa oficială), înainte de tipărire.",
+          "nu_pui": "Nume de pacienți sau de colegi; datele de contact le adaugi tu pe afișul final.",
+          "adaugat": "2026-11-13"
+        },
+        {
+          "categorie": "Formare",
+          "titlu": "Plan de prezentare pentru rezidenți",
+          "prompt": "Pregătesc o prezentare de [durata] minute pentru rezidenții de [specialitatea] despre [tema]. Îți dau notițele mele: [lipește punctele principale]. Propune structura pe slide-uri (maximum 12): titlul fiecărui slide, 2–4 idei pe slide, unde pun un caz didactic și 3 întrebări de verificare la final. Folosește doar ce e în notițele mele; unde ar trebui o sursă sau o cifră, scrie [de completat din ghid].",
+          "cand": "Când ai conținutul în cap sau în notițe și vrei rapid scheletul prezentării.",
+          "verifici": "Că structura respectă ce ai scris și că fiecare recomandare de pe slide e confirmată în ghidul în vigoare.",
+          "nu_pui": "Cazuri reale identificabile; cazul didactic îl construiești tu, anonimizat ca la o conferință.",
+          "adaugat": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "meserie": "profesori",
+      "meserie_titlu": "Profesori",
+      "icon": "🍎",
+      "url": "https://aplicabilai.ro/prompturi/profesori/",
+      "prompturi": [
+        {
+          "categorie": "Planificare",
+          "titlu": "Plan de lecție",
+          "prompt": "Sunt profesor de [materie], clasa a [X]-a. Scrie un plan de lecție de [50] de minute despre [subiect]. Include obiective, două activități pe grupe și cinci întrebări de verificare la final. Scrie în română.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Planificare",
+          "titlu": "Eșalonarea semestrului",
+          "prompt": "Predau [materie] la clasa a [X]-a, [N] ore pe săptămână, timp de [N] săptămâni. Propune o eșalonare a subiectelor din programă, cu temele pe săptămână și un loc pentru un test.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Materiale",
+          "titlu": "Fișă de lucru",
+          "prompt": "Creează o fișă de lucru pentru clasa a [X]-a la [subiect]. Include șase exerciții, de la ușor la dificil, și cheia de răspuns separată la final.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Materiale",
+          "titlu": "Versiuni diferențiate",
+          "prompt": "Am acest text: [lipește textul]. Rescrie-l în trei versiuni: pentru elevii care au nevoie de sprijin, pentru nivel mediu și pentru elevii avansați. Păstrează aceleași informații.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Feedback",
+          "titlu": "Feedback constructiv",
+          "prompt": "Un elev a scris: [lipește textul]. Dă feedback în trei puncte: ce e bine, ce poate fi mai bun și un exercițiu concret pentru săptămâna viitoare. Ton blând, pentru un elev de clasa a [X]-a.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Comunicare",
+          "titlu": "Mesaj către părinți",
+          "prompt": "Scrie un mesaj scurt și politicos către părinții clasei a [X]-a despre [subiect]. Include ce urmează, ce trebuie să aducă elevii și la cine se pot adresa pentru întrebări.",
+          "cand": "",
+          "verifici": "",
+          "nu_pui": "",
+          "adaugat": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "meserie": "receptie-secretariat",
+      "meserie_titlu": "Recepție și secretariat",
+      "icon": "📞",
+      "url": "https://aplicabilai.ro/prompturi/receptie-secretariat/",
+      "prompturi": [
+        {
+          "categorie": "Comunicare",
+          "titlu": "Răspuns standard la email",
+          "prompt": "Scrie un răspuns politicos și scurt la un email în care cineva cere [informația: program, tarife, documente necesare]. Ton profesional și cald, maximum 6 rânduri.",
+          "cand": "Pentru întrebările care se repetă zilnic.",
+          "verifici": "Informațiile concrete: program, tarife, adrese.",
+          "nu_pui": "Datele persoanei care a scris.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare",
+          "titlu": "Mesaj de confirmare a programării",
+          "prompt": "Scrie un mesaj scurt de confirmare a unei programări, cu loc pentru dată, oră și ce trebuie să aducă persoana. Variantă de SMS (maximum 160 de caractere) și variantă de email.",
+          "cand": "Ca să ai șabloane gata de folosit.",
+          "verifici": "Că datele completate sunt corecte.",
+          "nu_pui": "Nume reale și numere de telefon; le completezi tu.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Procedură scrisă",
+          "prompt": "Transformă aceste notițe despre cum primim vizitatorii într-o procedură clară, cu pași numerotați: [lipește notițele, fără nume].",
+          "cand": "Când un coleg nou trebuie să învețe procedura.",
+          "verifici": "Că pașii sunt compleți și în ordinea reală.",
+          "nu_pui": "Nume de colegi sau de vizitatori.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Telefon",
+          "titlu": "Script pentru apeluri",
+          "prompt": "Scrie un script scurt pentru recepție, pentru apelurile în care cineva cere [informația]. Include salutul, întrebările de clarificare și încheierea.",
+          "cand": "Când vrei ca toată lumea să răspundă la fel.",
+          "verifici": "Informațiile, înainte să-l folosești.",
+          "nu_pui": "Date ale celor care sună.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Comunicare",
+          "titlu": "Anunț afișat la intrare pentru program de sărbători",
+          "prompt": "Scrie un anunț scurt de afișat la intrarea în [tipul firmei: cabinet, birou, salon, service] și la recepție, despre programul de sărbători. Datele, completate de mine: [ZILELE ÎNCHISE], [ZILELE CU PROGRAM REDUS și orele], [ZIUA REDESCHIDERII]. Mai spune unde ne pot scrie între timp: [canalul firmei: email, formular, WhatsApp]. Structura: titlu mare de un rând, programul pe zile într-o listă, o frază de urare și o frază despre cum ne contactează. Ton prietenos, maximum 10 rânduri, să se citească de la doi metri. La final, dă-mi și o variantă de 2 rânduri pentru mesajul automat de pe email.",
+          "cand": "Înainte de Crăciun, Anul Nou, Paște sau minivacanțe, când clienții întreabă de zece ori pe zi dacă sunteți deschiși.",
+          "verifici": "Fiecare zi și oră din listă, comparate cu programul aprobat de conducere, și că zilele săptămânii se potrivesc cu datele din calendar.",
+          "nu_pui": "Numele colegilor care sunt de serviciu sau în concediu, telefoanele lor personale, codurile de acces sau de alarmă.",
+          "adaugat": "2026-11-18"
+        },
+        {
+          "categorie": "Comunicare",
+          "titlu": "Răspuns la o recenzie negativă pe Google",
+          "prompt": "Am primit o recenzie negativă pe Google despre [ce reclamă: așteptarea la recepție, un telefon la care nu s-a răspuns, o programare încurcată]. Iată textul recenziei, fără numele autorului: [lipește recenzia]. Scrie un răspuns public, în numele firmei, de maximum 5 rânduri: mulțumește pentru semnal, recunoaște ce s-a întâmplat fără să ne certăm cu clientul, spune ce facem ca să nu se repete și invită persoana să ne contacteze direct la [canalul de contact al firmei]. Fără scuze exagerate, fără promisiuni pe care nu le putem ține. Dă-mi două variante: una mai caldă și una mai sobră.",
+          "cand": "Când o recenzie proastă îți strică ziua și vrei un răspuns calm, nu unul scris la nervi.",
+          "verifici": "Că răspunsul nu confirmă public detalii despre client (cine e, când a venit, ce serviciu a avut) și că promisiunea făcută chiar se poate ține.",
+          "nu_pui": "Numele autorului recenziei, datele lui din agendă și, la clinici, orice informație despre sănătate.",
+          "adaugat": "2026-11-18"
+        },
+        {
+          "categorie": "Corespondență",
+          "titlu": "Email de convocare la ședință, cu ordinea de zi",
+          "prompt": "Scrie un email prin care îi convoc pe [cine: colegii din departament, echipa, conducerea] la o ședință. Date: [DATA], [ORA], [LOCUL sau link de întâlnire online, îl adaug eu], durata aproximativă [durata]. Ordinea de zi, din notițele mele: [lipește punctele, fără nume]. Emailul are: subiect clar, 2 rânduri de introducere, ordinea de zi numerotată, ce trebuie să pregătească fiecare (documente, cifre de adus) și rugămintea de a confirma participarea până la [termenul intern]. Ton profesional, maximum 12 rânduri.",
+          "cand": "Când șeful îți dă câteva puncte pe fugă și trebuie să trimiți invitația la ședință în aceeași zi.",
+          "verifici": "Data, ora și locul, ordinea punctelor (cum o vrea conducerea) și lista destinatarilor, înainte să apeși Trimite.",
+          "nu_pui": "Subiecte confidențiale ale conducerii (salarii, disponibilizări, litigii), numele colegilor și adresele lor de email.",
+          "adaugat": "2026-11-18"
+        },
+        {
+          "categorie": "Corespondență",
+          "titlu": "Adresă oficială către o instituție, din câteva notițe",
+          "prompt": "Transformă aceste notițe într-o adresă oficială simplă, în română corectă, către [instituția: primărie, ITM, furnizorul de utilități, o școală]: [lipește notițele, fără date personale]. Structura: antet cu loc pentru [denumirea firmei] și [Nr. de înregistrare / DATA], formula de adresare potrivită, obiectul adresei într-un rând, 1–3 paragrafe scurte cu ce cerem sau ce comunicăm, lista anexelor (dacă există), formula de încheiere și loc pentru [funcția și semnătura]. Ton formal, fără cuvinte pompoase, maximum o pagină.",
+          "cand": "Când trebuie să trimiți o adresă către o instituție și nu vrei să pornești de la o pagină goală.",
+          "verifici": "Denumirea exactă a instituției și a compartimentului, numărul de înregistrare din registrul vostru și, dacă adresa citează o lege sau un termen, verifici în sursa oficială.",
+          "nu_pui": "CNP-uri, serii de acte, date de cont bancar, contracte și corespondența confidențială a conducerii; le completezi în documentul final.",
+          "adaugat": "2026-11-18"
+        },
+        {
+          "categorie": "Corespondență",
+          "titlu": "Rezumatul unei adrese primite, pentru conducere",
+          "prompt": "Am primit o adresă oficială (de la [cine: o instituție, un furnizor, un partener]). Iată textul ei, din care am scos numele persoanelor, numerele de cont și datele personale: [lipește textul]. Fă-mi un rezumat pentru conducere, de maximum 6 rânduri: cine ne scrie și despre ce, ce ni se cere concret, dacă se menționează un termen de răspuns (citează exact fraza din adresă, nu calcula tu termenul), ce documente se cer și cui din firmă i-ar reveni sarcina. La final, o propoziție cu ce nu e clar în adresă și trebuie întrebat.",
+          "cand": "Când intră o adresă lungă în registru și șeful vrea să știe în două minute ce are de făcut.",
+          "verifici": "Că termenul și documentele din rezumat sunt exact cele din adresa originală; termenele legale le verifici în sursa oficială, nu în rezumat.",
+          "nu_pui": "Numele și datele persoanelor din adresă, CNP-uri, numere de cont, numărul de dosar dacă identifică o persoană, corespondența confidențială a conducerii.",
+          "adaugat": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "meserie": "soferi-transport",
+      "meserie_titlu": "Șoferi și transport",
+      "icon": "🚕",
+      "url": "https://aplicabilai.ro/prompturi/soferi-transport/",
+      "prompturi": [
+        {
+          "categorie": "Mesaje către clienți",
+          "titlu": "Mesaj pentru o întârziere",
+          "prompt": "Sunt [șofer de taxi / curier / șofer de livrări]. Am întârziere la [cursa / livrarea] de la ora [ora stabilită], din cauza [trafic, accident pe traseu, coada la depozit, altă cursă care a durat mai mult]. Ajung în aproximativ [câte minute]. Scrie un mesaj scurt și politicos pentru client, care să-și ceară scuze o singură dată, să spună când ajung și să-i dea de ales dacă vrea să aștepte sau să reprogrameze. Maximum 3 fraze, fără explicații lungi. Dă-mi două variante: una mai formală, una mai prietenoasă.",
+          "cand": "În pauză sau cu mașina oprită, când vezi că nu ajungi la ora promisă.",
+          "verifici": "Ora și minutele din mesaj; să nu promită o oră la care nu poți ajunge sigur.",
+          "nu_pui": "Numele, telefonul și adresa clientului, numărul comenzii sau AWB-ul. Le completezi tu în aplicație.",
+          "adaugat": "2026-11-12"
+        },
+        {
+          "categorie": "Mesaje către clienți",
+          "titlu": "Clientul nu răspunde la telefon",
+          "prompt": "Sunt curier. Am ajuns la adresa destinatarului, l-am sunat de [câte ori] și nu răspunde. Pot să [aștept câteva minute / las coletul la punctul de ridicare / revin mâine]. Scrie un SMS scurt și politicos pentru destinatar: unde sunt, ce am încercat și ce opțiuni are. Maximum 300 de caractere, fără ton de reproș.",
+          "cand": "La ușa clientului, înainte să pleci mai departe pe traseu.",
+          "verifici": "Că opțiunile din mesaj sunt chiar cele permise de firma ta (punct de ridicare, reprogramare, vecin).",
+          "nu_pui": "Numele și telefonul destinatarului, codul de la interfon, suma de ramburs, fotografia etichetei.",
+          "adaugat": "2026-11-12"
+        },
+        {
+          "categorie": "Mesaje către clienți",
+          "titlu": "Răspuns calm la o recenzie proastă",
+          "prompt": "Lucrez pe o aplicație de curse. Un pasager mi-a lăsat această recenzie: [lipește textul recenziei, fără nume]. Ce s-a întâmplat de fapt, pe scurt: [povestește în 1–2 fraze]. Scrie un răspuns calm și politicos, care să mulțumească pentru părere, să explice fără ceartă ce s-a întâmplat și să nu dea vina pe pasager. Maximum 4 fraze. Apoi scrie separat, în 2–3 fraze, ce i-aș putea spune suportului platformei dacă vreau să contest recenzia.",
+          "cand": "Seara sau la sfârșitul turei, nu imediat, când ești încă nervos.",
+          "verifici": "Că răspunsul spune doar ce s-a întâmplat cu adevărat și că tonul e liniștit; citește-l cu voce tare înainte să-l trimiți.",
+          "nu_pui": "Numele pasagerului, locul de urcare sau coborâre, ora exactă a cursei, capturi de ecran cu date din aplicație.",
+          "adaugat": "2026-11-12"
+        },
+        {
+          "categorie": "Dispecer și încărcare",
+          "titlu": "Raport scurt către dispecer",
+          "prompt": "Sunt șofer de [dubă / camion / TIR]. Scrie un mesaj scurt și clar pentru dispecer despre această situație: [așteptare la rampă / marfă deteriorată la încărcare / documente lipsă / defecțiune la mașină]. Ce știu: [unde sunt, de când aștept sau ce am văzut, ce mi-au spus cei de la depozit]. Mesajul să aibă: ce s-a întâmplat, de când, ce am făcut deja și ce aștept de la dispecer. Maximum 5 rânduri, fără politețuri lungi. Dacă îmi lipsește o informație importantă, întreabă-mă înainte să scrii mesajul.",
+          "cand": "Când stai la rampă sau ai o problemă pe traseu și vrei să lași o urmă scrisă.",
+          "verifici": "Orele și ce ai văzut cu ochii tăi; mesajul nu trebuie să adauge lucruri pe care nu le-ai spus.",
+          "nu_pui": "Numărul de înmatriculare, numele oamenilor de la depozit, datele reale din CMR sau aviz, poze cu actele.",
+          "adaugat": "2026-11-12"
+        },
+        {
+          "categorie": "Evidență și reguli",
+          "titlu": "Tabel pentru curse și cheltuieli",
+          "prompt": "Lucrez ca [șofer de taxi / ride-sharing / curier pe cont propriu]. Fă-mi un model de tabel simplu, pe zile, în care să notez: cursele sau livrările, kilometrii, încasările și cheltuielile (combustibil, spălătorie, parcări, altele). Pune coloanele în ordinea în care le completez de pe telefon și adaugă un rând de total la sfârșitul săptămânii. Lasă celulele goale, le completez eu. Explică în 3 fraze cum îl copiez într-un tabel pe telefon.",
+          "cand": "O singură dată, ca să-ți faci evidența; apoi o completezi la sfârșitul zilei.",
+          "verifici": "Totalurile, după ce completezi cifrele; pentru ce trebuie declarat la ANAF și cum, verifici în sursa oficială sau la contabil.",
+          "nu_pui": "Contul bancar, datele de card, CNP-ul, datele de login la aplicația de curse.",
+          "adaugat": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "meserie": "vanzari-retail",
+      "meserie_titlu": "Vânzări și retail",
+      "icon": "🛍️",
+      "url": "https://aplicabilai.ro/prompturi/vanzari-retail/",
+      "prompturi": [
+        {
+          "categorie": "Produse",
+          "titlu": "Descriere de produs",
+          "prompt": "Scrie o descriere de produs pentru [produsul], cu [3 caracteristici reale]. Un paragraf de 60 de cuvinte și o listă de 4 beneficii. Fără promisiuni pe care produsul nu le poate ține.",
+          "cand": "Pentru magazinul online sau pentru raft.",
+          "verifici": "Fiecare caracteristică, față de fișa tehnică.",
+          "nu_pui": "Date ale clienților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Răspuns la o reclamație",
+          "prompt": "Scrie un răspuns empatic la o reclamație despre [problema], în care ne cerem scuze, explicăm ce facem și propunem [soluția]. Maximum 8 rânduri.",
+          "cand": "Când răspunzi în scris la o reclamație.",
+          "verifici": "Că soluția propusă e aprobată de magazin.",
+          "nu_pui": "Numele, telefonul sau datele de comandă ale clientului.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Promovare",
+          "titlu": "Idei de promoție",
+          "prompt": "Dă-mi 5 idei de promoție pentru [tipul magazinului] în perioada [perioada], potrivite unui buget mic. Pentru fiecare: ce facem, cui se adresează și cum vedem dacă a mers.",
+          "cand": "Când planifici luna următoare.",
+          "verifici": "Că ideile respectă regulile comerciale și politica magazinului.",
+          "nu_pui": "Date de vânzări ale clienților.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Echipă",
+          "titlu": "Instruire scurtă pentru vânzători",
+          "prompt": "Fă o instruire de 10 minute pentru vânzători despre [tema: cum recomanzi un produs, cum gestionezi un client grăbit]. Cu 3 exemple de dialog și o greșeală frecventă de evitat.",
+          "cand": "Înainte de tura de dimineață.",
+          "verifici": "Că exemplele se potrivesc magazinului tău.",
+          "nu_pui": "Nume de clienți sau de colegi.",
+          "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Răspuns la mesajul „cât costă?” primit pe Facebook sau WhatsApp",
+          "prompt": "Lucrez într-un magazin de [tipul magazinului]. Un client ne-a scris pe [Facebook / WhatsApp] doar „cât costă?” la [produsul sau postarea]. Prețul din sistem azi este [prețul], stocul este [în stoc / la comandă]. Scrie-mi un răspuns de maximum 4 rânduri, prietenos, pe tonul unui vânzător, care: dă prețul, spune dacă produsul e disponibil, pune o singură întrebare ca să aflu ce îi trebuie (de exemplu mărimea, modelul sau pentru ce îl folosește) și îl invită în magazin sau să comande. Fără emoticoane multe și fără „Stimate client”. Dă-mi și o variantă mai scurtă, de 2 rânduri.",
+          "cand": "Când primești zeci de mesaje „cât costă?” și vrei să răspunzi repede, fără să pierzi clientul.",
+          "verifici": "Prețul și stocul, din sistemul magazinului, chiar în ziua în care trimiți; dacă e promoție, până când e valabilă.",
+          "nu_pui": "Numele, telefonul sau profilul clientului; captura conversației cu datele lui.",
+          "adaugat": "2026-11-19"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Ofertă de preț scrisă pentru un client care cere mai multe produse",
+          "prompt": "Scrie o ofertă de preț pentru un client [persoană fizică / firmă] care a cerut [ce a cerut, pe scurt]. Produsele și prețurile din sistem sunt: [lista: produs, cantitate, preț unitar]. Condițiile magazinului: [livrare, termen de livrare confirmat, garanție, valabilitatea ofertei, modul de plată]. Pune oferta pe puncte: un rând de introducere, tabelul cu produse, cantități, preț unitar și total pe rând, apoi condițiile și o frază de încheiere cu ce trebuie să facă clientul ca să comande. Maximum o pagină. Nu adăuga produse, reduceri sau condiții pe care nu ți le-am dat.",
+          "cand": "Când un client sau o firmă îți cere „o ofertă pe mail” pentru mai multe produse.",
+          "verifici": "Fiecare preț, cantitate și total, recalculate de tine; termenul de livrare și garanția, din sistem; să nu fi apărut vreo reducere sau condiție inventată.",
+          "nu_pui": "Datele clientului (nume, CUI, adresă, telefon); prețurile de achiziție și marja; condițiile de la furnizori.",
+          "adaugat": "2026-11-19"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Ce produse să-i mai propui clientului la cumpărare (upsell)",
+          "prompt": "Un client cumpără [produsul] pentru [la ce îl folosește, dacă știi]. În magazin avem și [lista de accesorii sau produse înrudite pe care le avem în stoc]. Spune-mi care 2–3 dintre ele au sens pentru el și de ce, într-o frază fiecare, apoi scrie-mi cum i le propun la casă sau la raft, în maximum 2 propoziții, natural, fără să sune insistent. Adaugă și ce spun dacă refuză.",
+          "cand": "Când vrei să-i propui clientului și husa la telefon sau dibluri la bormașină, fără să pari că îl împingi să cumpere.",
+          "verifici": "Compatibilitatea accesoriului cu produsul, în fișa tehnică; prețul și stocul, în sistem; să nu propui ceva ce clientul nu folosește.",
+          "nu_pui": "Numele clientului, istoricul lui de cumpărături, cardul de fidelitate; cifrele interne de vânzări sau target-ul tău.",
+          "adaugat": "2026-11-19"
+        },
+        {
+          "categorie": "Vânzare",
+          "titlu": "Răspunsuri de exersat la obiecția „am văzut mai ieftin online”",
+          "prompt": "Lucrez ca vânzător la [tipul magazinului]. Un client îmi spune la [produsul] că l-a văzut mai ieftin online. Ce oferim noi în plus, real: [de exemplu: îl ia acum, montaj, schimb rapid în magazin, consultanță, service]. Politica magazinului la preț este: [de exemplu: nu egalăm prețul / egalăm doar în anumite condiții]. Dă-mi 3 variante de răspuns, de 2–3 propoziții fiecare, calme, fără să vorbesc urât despre alt magazin și fără să promit o reducere pe care n-o pot da. Pentru fiecare, o întrebare pe care i-o pun clientului după.",
+          "cand": "Când vrei să exersezi, înainte de tură, ce spui clientului care compară prețul cu telefonul în mână.",
+          "verifici": "Că fiecare avantaj spus clientului e real la magazinul tău; că răspunsul respectă politica de preț; garanția și condițiile de retur, din sistem și din sursa oficială.",
+          "nu_pui": "Prețurile de achiziție, marja, condițiile de la furnizori; numele clientului.",
+          "adaugat": "2026-11-19"
+        },
+        {
+          "categorie": "Promovare",
+          "titlu": "Anunț de promoție pentru vitrină și postare pe Facebook",
+          "prompt": "Scrie textul pentru o promoție a magazinului [tipul magazinului]: [ce produse sau categorii], reducerea [procentul sau prețul nou, exact cum e aprobat], perioada [de la … până la …], condiții [de exemplu: în limita stocului, doar în magazin]. Vreau două variante: 1) afișul din vitrină: un titlu de maximum 6 cuvinte și 2 rânduri dedesubt; 2) o postare pentru Facebook de 4–5 rânduri, cu un îndemn la final. Ton simplu, fără exagerări („cel mai mic preț”, „ultima șansă”) și fără „eco” sau „durabil” dacă nu ți le-am dat eu ca dovedite.",
+          "cand": "Când pregătești o promoție și ai nevoie repede de afiș și de postare.",
+          "verifici": "Reducerea, prețurile, perioada și condițiile, față de ce a aprobat magazinul; regulile de afișare a reducerilor și a prețului anterior le verifici la sursa oficială (ANPC).",
+          "nu_pui": "Cifrele de vânzări, marjele, prețurile de achiziție; date ale clienților.",
+          "adaugat": "2026-11-19"
+        }
+      ]
+    }
+  ]
+}
