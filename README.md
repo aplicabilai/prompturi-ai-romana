@@ -46,7 +46,7 @@ Mai mult: [Ce este un prompt](https://aplicabilai.ro/glosar/prompt/?utm_source=g
 
 ## Contribuie
 
-Ai un prompt care chiar te ajută la muncă? Deschide un [issue](../../issues/new) cu meseria, promptul și ce verifici în răspuns. Detalii în [CONTRIBUTING.md](CONTRIBUTING.md).
+Ai un prompt care chiar te ajută la muncă? Deschide un [issue](https://github.com/aplicabilai/prompturi-ai-romana/issues/new) cu meseria, promptul și ce verifici în răspuns. Detalii în [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licență
 

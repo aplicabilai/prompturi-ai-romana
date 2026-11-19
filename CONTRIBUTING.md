@@ -4,7 +4,7 @@ Mulțumim că vrei să ajuți! Colecția e generată automat din [aplicabilai.ro
 
 ## Propui un prompt
 
-Deschide un [issue](../../issues/new) cu:
+Deschide un [issue](https://github.com/aplicabilai/prompturi-ai-romana/issues/new) cu:
 
 1. **Meseria** (sau una nouă pe care ai vrea s-o vezi);
 2. **Promptul**, cu [paranteze drepte] acolo unde omul pune situația lui;
