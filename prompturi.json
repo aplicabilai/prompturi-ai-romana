@@ -1,7 +1,7 @@
 {
   "sursa": "https://aplicabilai.ro/prompturi/",
   "licenta": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.ro), atribuire: aplicabilai.ro",
-  "actualizat": "2026-11-19",
+  "actualizat": "2026-11-20",
   "meserii": [
     {
       "meserie": "agricultori",
@@ -213,6 +213,42 @@
           "verifici": "Că regulile respectă normele de securitate în vigoare.",
           "nu_pui": "Nume de colegi.",
           "adaugat": "2026-11-11"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Ce pregătește clientul înainte să vină echipa",
+          "prompt": "Fă o listă scurtă pentru un client, cu ce trebuie să pregătească până pe [ziua începerii] pentru lucrarea de [lucrarea, de exemplu: faianță și gresie în baie]: ce mută din cameră, ce acoperă, unde avem apă și curent, unde lăsăm materialele, cum intrăm. Maximum 8 puncte, câte o frază. La final, o propoziție că ne poate suna dacă nu poate face ceva din listă.",
+          "cand": "Cu o zi-două înainte să începi lucrarea, ca să nu pierzi prima dimineață mutând mobila.",
+          "verifici": "Că lista se potrivește lucrării și casei reale și că n-ai cerut clientului ceva ce e treaba echipei (de exemplu, să desfacă instalații).",
+          "nu_pui": "Adresa, codul de la interfon sau de la bloc, unde stă cheia, orele când casa e goală.",
+          "adaugat": "2026-11-20"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Anunț pentru vecini despre renovarea unui apartament din bloc",
+          "prompt": "Scrie un anunț scurt de pus la avizierul blocului: în apartamentul de la etajul [etajul] se fac lucrări de [lucrarea] între [data de început] și [data de final]. Spune intervalul orar în care se lucrează cu zgomot [orele], că scara și liftul se curăță după transportul materialelor și că ne cerem scuze pentru deranj. Fără număr de apartament și fără nume. Maximum 6 rânduri, ton politicos.",
+          "cand": "Înainte să începi o renovare într-un bloc, ca vecinii să știe la ce să se aștepte.",
+          "verifici": "Datele și orele; dacă asociația de proprietari sau regulamentul blocului are reguli de program pentru zgomot, verifici la administrator și le respecți.",
+          "nu_pui": "Numele proprietarului, numărul apartamentului, telefonul tău personal dacă nu vrei să-l dai.",
+          "adaugat": "2026-11-20"
+        },
+        {
+          "categorie": "Clienți",
+          "titlu": "Sfaturi de întreținere lăsate clientului după lucrare",
+          "prompt": "Scrie o foaie scurtă de lăsat clientului după lucrarea de [lucrarea, de exemplu: glet și lavabil în living]. Două părți: „În primele zile” (ce să nu facă, ce să aerisească) și „Pe termen lung” (cum curăță, ce evită, când ne sună). Unde e nevoie de un timp de uscare sau de așteptare, lasă [timpul din fișa produsului], nu pune cifre. Maximum 10 puncte, limbaj simplu.",
+          "cand": "La final de lucrare, ca clientul să nu strice în prima săptămână ce ai lucrat.",
+          "verifici": "Timpii și produsele de curățare, după fișa tehnică a materialelor folosite; condițiile de garanție le scrii tu, cum sunt în contract.",
+          "nu_pui": "Datele clientului sau adresa lucrării.",
+          "adaugat": "2026-11-20"
+        },
+        {
+          "categorie": "Organizare",
+          "titlu": "Plan de lucru pe zile pentru echipă",
+          "prompt": "Fă un plan pe zile pentru renovarea [ce se face, de exemplu: baie completă: desfacere, instalații, șapă, faianță, gresie, montaj obiecte], pentru o echipă de [câți oameni]. Ca tabel: ziua, ce se face, cine (meseria, nu numele), ce materiale trebuie să fie deja pe șantier. Marchează zilele în care se așteaptă uscarea și lasă [zile] acolo, nu pune cifre. Ordinea să fie corectă: ce se face înainte de ce.",
+          "cand": "Când pornești o lucrare cu mai multe etape și vrei să știe fiecare ce face și ce trebuie comandat din timp.",
+          "verifici": "Ordinea etapelor și timpii de uscare, după fișa produselor și după experiența ta; lucrările la gaz și electrice le face doar omul autorizat.",
+          "nu_pui": "Numele oamenilor din echipă, adresa lucrării, datele clientului.",
+          "adaugat": "2026-11-20"
         }
       ]
     },
