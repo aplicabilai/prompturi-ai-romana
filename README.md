@@ -1,6 +1,6 @@
 # Prompturi ChatGPT, Claude și Gemini în română, pe meserii
 
-**89 de prompturi gratuite, scrise direct în limba română**, pentru 11 meserii: agricultori, avocați, construcții și meseriași, contabili, HR și salarizare, imobiliare, medici, profesori, recepție și secretariat, șoferi și transport, vânzări și retail. Le copiezi, înlocuiești ce e între [paranteze drepte] și le lipești în ChatGPT, Claude, Gemini, Grok sau Copilot.
+**94 de prompturi gratuite, scrise direct în limba română**, pentru 11 meserii: agricultori, avocați, construcții și meseriași, contabili, HR și salarizare, imobiliare, medici, profesori, recepție și secretariat, șoferi și transport, vânzări și retail. Le copiezi, înlocuiești ce e între [paranteze drepte] și le lipești în ChatGPT, Claude, Gemini, Grok sau Copilot.
 
 Fiecare prompt vine cu trei lucruri pe care le uită majoritatea colecțiilor: **când** îl folosești, **ce verifici** în răspuns și **ce date nu pui** în chat.
 
@@ -19,7 +19,7 @@ Fiecare prompt vine cu trei lucruri pe care le uită majoritatea colecțiilor: *
 | 🩺 [Medici](meserii/medici.md) | 9 | Comunicare cu pacienții, Administrativ, Organizare, Formare |
 | 🍎 [Profesori](meserii/profesori.md) | 6 | Planificare, Materiale, Feedback, Comunicare |
 | 📞 [Recepție și secretariat](meserii/receptie-secretariat.md) | 9 | Comunicare, Organizare, Telefon, Corespondență |
-| 🚕 [Șoferi și transport](meserii/soferi-transport.md) | 5 | Mesaje către clienți, Dispecer și încărcare, Evidență și reguli |
+| 🚕 [Șoferi și transport](meserii/soferi-transport.md) | 10 | Mesaje către clienți, Dispecer și încărcare, Evidență și reguli, Firma mea de transport |
 | 🛍️ [Vânzări și retail](meserii/vanzari-retail.md) | 9 | Produse, Clienți, Promovare, Echipă, Vânzare |
 
 ## Exemplu
@@ -54,4 +54,4 @@ Ai un prompt care chiar te ajută la muncă? Deschide un [issue](https://github.
 
 Vezi și: [awesome-ai-romana](https://github.com/aplicabilai/awesome-ai-romana), resurse gratuite despre AI în limba română.
 
-<sub>Ultimul prompt adăugat: 2026-11-20.</sub>
+<sub>Ultimul prompt adăugat: 2026-11-21.</sub>
