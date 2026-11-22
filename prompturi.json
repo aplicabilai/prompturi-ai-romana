@@ -1,7 +1,7 @@
 {
   "sursa": "https://aplicabilai.ro/prompturi/",
   "licenta": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.ro), atribuire: aplicabilai.ro",
-  "actualizat": "2026-11-21",
+  "actualizat": "2026-11-22",
   "meserii": [
     {
       "meserie": "agricultori",
@@ -658,6 +658,51 @@
           "verifici": "",
           "nu_pui": "",
           "adaugat": "2026-11-09"
+        },
+        {
+          "categorie": "Evaluare",
+          "titlu": "Întrebări pentru verificarea orală a unei teme scrise",
+          "prompt": "Predau [materie] la clasa a [X]-a. Elevii au avut ca temă: [lipește cerința temei]. Scrie 6 întrebări scurte pe care le pot pune oral, în 2–3 minute, ca să văd dacă elevul a înțeles ce a scris: două despre cum a ajuns la răspuns, două care cer să explice cu cuvintele lui un pas sau un termen, două care schimbă puțin datele problemei. Pentru fiecare întrebare, notează în paranteză ce ar arăta un răspuns care dovedește înțelegerea. Fără întrebări la care se răspunde doar cu da sau nu.",
+          "cand": "Când primești teme scrise care par prea lustruite și vrei să verifici la clasă, în câteva minute, ce a înțeles elevul.",
+          "verifici": "Că întrebările se potrivesc exact cu cerința temei și cu nivelul clasei; răspunsurile așteptate le verifici tu, în manual.",
+          "nu_pui": "Tema unui elev anume cu numele lui, notele sau bănuiala că a copiat; lipești doar cerința temei.",
+          "adaugat": "2026-11-22"
+        },
+        {
+          "categorie": "Evaluare",
+          "titlu": "Itemi cu alegere multiplă și variante greșite plauzibile",
+          "prompt": "Sunt profesor de [materie], clasa a [X]-a. Lecția a fost despre [subiect]; competența urmărită: [lipește competența specifică din programă]. Scrie [8] itemi cu alegere multiplă, fiecare cu 4 variante și un singur răspuns corect. Variantele greșite să fie greșelile pe care le fac de obicei elevii la subiectul ăsta, nu variante evident absurde. Sub fiecare item, scrie răspunsul corect și, într-o propoziție, ce greșeală de înțelegere arată fiecare variantă greșită. Pune la final cheia de răspuns într-un tabel.",
+          "cand": "Pentru un test formativ rapid sau o verificare de 10 minute la sfârșitul orei.",
+          "verifici": "Fiecare item, în manual: să aibă un singur răspuns corect, iar formularea să nu-l trădeze. AI-ul poate greși la conținut sau poate pune două variante corecte.",
+          "nu_pui": "Rezultatele elevilor la testele anterioare cu numele lor sau lucrări scanate pe care apar nume.",
+          "adaugat": "2026-11-22"
+        },
+        {
+          "categorie": "Materiale",
+          "titlu": "Fișă de recapitulare înainte de test",
+          "prompt": "Peste o săptămână dau test la [materie], clasa a [X]-a, din unitatea de învățare [nume unitate]. Conținuturile: [lipește lista din planificare]. Fă o fișă de recapitulare de maximum o pagină: noțiunile esențiale pe scurt, câte un exemplu rezolvat la fiecare tip de exercițiu, 5 exerciții de exersat (de la ușor la mai greu) și o listă „Verifică dacă știi” cu 6 puncte bifabile. Limbaj potrivit vârstei elevilor. Răspunsurile exercițiilor pe o pagină separată.",
+          "cand": "Cu câteva zile înainte de testul sumativ, ca elevii să știe exact ce recapitulează.",
+          "verifici": "Definițiile și exemplele rezolvate, în manual; că fișa acoperă doar conținuturile din test, nici mai mult, nici mai puțin.",
+          "nu_pui": "Subiectele exacte ale testului, numele elevilor sau notele lor.",
+          "adaugat": "2026-11-22"
+        },
+        {
+          "categorie": "Materiale",
+          "titlu": "Explicație pe înțelesul elevilor, cu exemple din viața lor",
+          "prompt": "Elevii mei din clasa a [X]-a nu înțeleg [concept] la [materie]. Explică acest concept în trei moduri diferite, fiecare în maximum 8 rânduri: (1) cu un exemplu din viața de zi cu zi a unui copil de vârsta lor (școală, sport, jocuri, cumpărături), (2) cu o comparație sau o imagine ușor de ținut minte, (3) pas cu pas, ca pe o rețetă. La final, propune două întrebări simple prin care verific la clasă dacă au înțeles. Fără termeni pe care nu i-am învățat încă: [lipește termenii cunoscuți, dacă vrei].",
+          "cand": "Când explicația din manual nu a prins la clasă și cauți alt drum spre aceeași noțiune.",
+          "verifici": "Că exemplul și comparația nu introduc greșeli de conținut (simplificările AI-ului pot deforma noțiunea) și că exemplele se potrivesc cu elevii tăi.",
+          "nu_pui": "Numele elevilor care nu au înțeles, situația lor școlară sau informații despre CES.",
+          "adaugat": "2026-11-22"
+        },
+        {
+          "categorie": "Planificare",
+          "titlu": "Plan de activități pentru Săptămâna Școala altfel sau Săptămâna verde",
+          "prompt": "Sunt diriginte la clasa a [X]-a, [N] elevi. Pentru [Școala altfel / Săptămâna verde] am [N] zile, cu [N] ore pe zi. Resurse: [sala de clasă, curtea școlii, laborator, un parc în apropiere, buget mic sau fără buget]. Propune un program pe zile: pentru fiecare zi o temă, 2–3 activități cu durata, ce materiale trebuie, ce fac elevii concret și ce rămâne la final (un afiș, o prezentare, un mic produs). Pune activitățile în aer liber și pe cele de interior separat, ca să am variantă pentru vreme rea. Format: tabel pe zile.",
+          "cand": "Când trebuie să propui programul clasei pentru săptămâna de activități extrașcolare.",
+          "verifici": "Regulile școlii pentru ieșiri și acordurile părinților, costurile și ce e cu adevărat disponibil; ideile AI-ului le adaptezi la clasa ta.",
+          "nu_pui": "Lista elevilor, datele de contact ale părinților sau informații despre sănătatea elevilor (alergii, probleme medicale).",
+          "adaugat": "2026-11-22"
         }
       ]
     },
