@@ -1,6 +1,6 @@
 # Prompturi ChatGPT, Claude și Gemini în română, pe meserii
 
-**99 de prompturi gratuite, scrise direct în limba română**, pentru 11 meserii: agricultori, avocați, construcții și meseriași, contabili, HR și salarizare, imobiliare, medici, profesori, recepție și secretariat, șoferi și transport, vânzări și retail. Le copiezi, înlocuiești ce e între [paranteze drepte] și le lipești în ChatGPT, Claude, Gemini, Grok sau Copilot.
+**104 de prompturi gratuite, scrise direct în limba română**, pentru 11 meserii: agricultori, avocați, construcții și meseriași, contabili, HR și salarizare, imobiliare, medici, profesori, recepție și secretariat, șoferi și transport, vânzări și retail. Le copiezi, înlocuiești ce e între [paranteze drepte] și le lipești în ChatGPT, Claude, Gemini, Grok sau Copilot.
 
 Fiecare prompt vine cu trei lucruri pe care le uită majoritatea colecțiilor: **când** îl folosești, **ce verifici** în răspuns și **ce date nu pui** în chat.
 
@@ -10,7 +10,7 @@ Fiecare prompt vine cu trei lucruri pe care le uită majoritatea colecțiilor: *
 
 | Meserie | Prompturi | Categorii |
 |---|---:|---|
-| 🌾 [Agricultori](meserii/agricultori.md) | 8 | Planificare, Vânzare, Documente, Organizare |
+| 🌾 [Agricultori](meserii/agricultori.md) | 13 | Planificare, Vânzare, Documente, Organizare |
 | ⚖️ [Avocați](meserii/avocati.md) | 9 | Redactare, Comunicare cu clientul, Cercetare, Organizare |
 | 🛠️ [Construcții și meseriași](meserii/constructii-meseriasi.md) | 8 | Clienți, Oferte, Organizare, Siguranță |
 | 📊 [Contabili](meserii/contabili.md) | 8 | Comunicare cu clienții, Organizare, Excel, Oferte și onorarii |
@@ -54,4 +54,4 @@ Ai un prompt care chiar te ajută la muncă? Deschide un [issue](https://github.
 
 Vezi și: [awesome-ai-romana](https://github.com/aplicabilai/awesome-ai-romana), resurse gratuite despre AI în limba română.
 
-<sub>Ultimul prompt adăugat: 2026-11-22.</sub>
+<sub>Ultimul prompt adăugat: 2026-11-23.</sub>
